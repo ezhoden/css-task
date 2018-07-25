@@ -1,10 +1,1 @@
-@import 'header/header.css';
-@import 'header/logo/logo.css';
-@import 'header/menu/menu.css';
-@import 'header/menu/__item/menu__item.css';
-@import 'header/notification/notification.css';
-@import 'header/notification/__icon/notification__icon.css';
-@import 'header/profile/profile.css';
-@import 'header/profile/__photo/profile__photo.css';
-@import 'header/search/search.css';
-@import 'header/search/__input/search__input.css';
+@import 'header/index.css';
