@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <title>CSS task</title>
 </head>
@@ -34,24 +35,80 @@
 
     </header>
 
-    <aside class="profile-card card card-menu">
-        <img class="profile__photo profile__photo_rounded profile__photo_size_l 
-        profile__photo_rounded profile__photo_bordered" src="http://webmaster.web-soluces.net/avatar/FaceCo-Homme.png" alt="user photo">
-        <label class="profile__username text text_weight_bold">Dave Gamache</label>
-        <label class="text text_weight_light text_centered text_padding_4">
-            Some very interesting status for this test template
-        </label>
-        <div class="peoples">
-            <div class="peoples__friends">
-                <label class="text text_weight_light">Friends</label>
-                <label class="text text_weight_bold">12M</label>
-            </div>
-            <div class="peoples__enemies">
-                <label class="text text_weight_light">Enemies</label>
-                <label class="text text_weight_bold">1</label>
-            </div>
+    <div class="container">
+
+        <div class="user-panels">
+
+            <aside class="card card-menu card_profile-bg card_centered-content">
+                <img class="profile__photo profile__photo_rounded profile__photo_size_l 
+                        profile__photo_rounded profile__photo_bordered" src="http://webmaster.web-soluces.net/avatar/FaceCo-Homme.png"
+                    alt="user photo">
+                <label class="profile__username text text_weight_bold">Dave Gamache</label>
+                <label class="profile__status text text_weight_regular text_position_center">
+                    Some very interesting status for this test template
+                </label>
+                <div class="social">
+                    <div class="people">
+                        <label class="text text_weight_regular people__group">Friends</label>
+                        <label class="text text_weight_bold people__count">12M</label>
+                    </div>
+                    <div class="people">
+                        <label class="text text_weight_regular people__group">Enemies</label>
+                        <label class="text text_weight_bold people__count">1</label>
+                    </div>
+                </div>
+            </aside>
+
+            <aside class="card card-menu">
+                <div class="caption-with-edit">
+                    <label class="text text_weight_bold text_position_left">About</label>
+                    &middot;
+                    <a href="#" class="text text_weight_regular text_position_left text_edit text_linked">Edit</a>
+                </div>
+
+                <div class="user-info">
+                    <img class="user-info__icon" alt="git icon" src="https://camo.githubusercontent.com/7710b43d0476b6f6d4b4b2865e35c108f69991f3/68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67">
+                    <label class="user-info__text text text_weight_regular">
+                        Worked at
+                        <a href="#" class="text_linked">GutHub</a>
+                    </label>
+                </div>
+                <div class="user-info">
+                    <img class="user-info__icon" alt="git icon" src="https://image.flaticon.com/icons/svg/23/23665.svg">
+                    <label class="user-info__text text text_weight_regular">
+                        Worked at
+                        <a href="#" class="text_linked">GutHub</a>
+                    </label>
+                </div>
+                <div class="user-info">
+                    <img class="user-info__icon" alt="git icon" src="https://image.flaticon.com/icons/svg/64/64113.svg">
+                    <label class="user-info__text text text_weight_regular">
+                        Worked at
+                        <a href="#" class="text_linked">GutHub</a>
+                    </label>
+                </div>
+            </aside>
+
+            <aside class="card card-menu">
+                <div class="caption-with-edit">
+                    <label class="text text_weight_bold text_position_left">Photos</label>
+                    &middot;
+                    <a href="#" class="text text_weight_regular text_position_left text_edit text_linked">Edit</a>
+                </div>
+                <div class="photos">
+                    <img class="photos__photo" src="assets/instagram_5.jpg" alt="photo">
+                    <img class="photos__photo" src="assets/instagram_5.jpg" alt="photo">
+                    <img class="photos__photo" src="assets/instagram_5.jpg" alt="photo">
+                    <img class="photos__photo" src="assets/instagram_5.jpg" alt="photo">
+                    <img class="photos__photo" src="assets/instagram_5.jpg" alt="photo">
+                    <img class="photos__photo" src="assets/instagram_5.jpg" alt="photo">
+                </div>
+            </aside>
+
         </div>
-    </aside>
+
+    </div>
+
 </body>
 
 </html>

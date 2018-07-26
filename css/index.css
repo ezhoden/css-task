@@ -1,11 +1,4 @@
 @import 'header.css';
-@import 'card.css';
-@import 'text/text.css';
-@import 'text/_weight/text_weight_light.css';
-@import 'text/_weight/text_weight_bold.css';
-@import 'text/_centered/text_centered.css';
-@import 'text/_padding/text_padding_4.css';
+@import 'user-panels.css';
 @import 'body/body.css';
-@import 'peoples/peoples.css';
-@import 'peoples/__enemies/peoples__enemies.css';
-@import 'peoples/__friends/peoples__friends.css';
+@import 'container/container.css';
