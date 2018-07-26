@@ -1,5 +1,5 @@
-.card_menu {
-    padding: 16px;
+.comments {
     display: flex;
     flex-direction: column;
+    padding-top: 16px;
 }

@@ -13,6 +13,6 @@
 @import 'profile/_size/profile__photo_size_l.css';
 @import 'profile/_rounded/profile__photo_rounded.css';
 @import 'search/search.css';
-@import 'search/__input/search__input.css';
-@import 'search/_rounded/search__input_rounded.css';
+@import 'text/__input/text__input.css';
+@import 'text/_rounded/text__input_rounded.css';
 @import 'menu/_active/menu__item_active.css';

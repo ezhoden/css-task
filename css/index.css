@@ -1,4 +1,6 @@
 @import 'header.css';
-@import 'user-panels.css';
+@import 'user-panel.css';
 @import 'body/body.css';
 @import 'container/container.css';
+@import 'info-panel.css';
+@import 'content.css';

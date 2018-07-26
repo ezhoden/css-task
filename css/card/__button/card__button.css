@@ -1,0 +1,8 @@
+.card__button {
+    border: 1px lightseagreen solid;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    color: lightseagreen;
+    width: fit-content;
+}

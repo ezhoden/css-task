@@ -1,0 +1,6 @@
+.message-author__name {
+    /* border: 4px orange solid; */
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 1;
+}

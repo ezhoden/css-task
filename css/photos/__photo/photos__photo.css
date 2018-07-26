@@ -1,9 +1,0 @@
-.photos__photo {
-    width: 45%;
-    height: 45%;
-    margin: 5px;
-}
-
-.photos__photo + .photos__photo {
-    
-}

@@ -1,0 +1,4 @@
+.multiple-photos {
+    display: flex;
+    flex-flow: row wrap;
+}
