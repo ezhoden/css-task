@@ -6,3 +6,8 @@
     color: lightseagreen;
     width: fit-content;
 }
+
+.card__button:hover {
+    border-color: rgb(4, 204, 194);
+    color: rgb(4, 204, 194);
+}

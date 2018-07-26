@@ -14,7 +14,5 @@
 @import 'comments/comment/__text/comment__text.css';
 @import 'multiple-photos/multiple-photos.css';
 @import 'multiple-photos/__photo/multiple-photos__photo.css';
-@import 'multiple-photos/_number/multiple-photos__photo_number_first.css';
-@import 'multiple-photos/_number/multiple-photos__photo_number_second.css';
-@import 'multiple-photos/_number/multiple-photos__photo_number_third.css';
-@import 'multiple-photos/_number/multiple-photos__photo_number_fourth.css';
+@import 'multiple-photos/_size/multiple-photos__photo_size_wide.css';
+@import 'multiple-photos/_size/multiple-photos__photo_size_narrow.css';
