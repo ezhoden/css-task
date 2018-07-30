@@ -1,0 +1,9 @@
+.message {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+}
+
+.message:not(:last-child) {
+    border-bottom: 1px lightgray solid;
+}

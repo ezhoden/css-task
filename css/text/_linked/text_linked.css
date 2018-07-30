@@ -1,0 +1,8 @@
+.text_linked {
+    color: darkcyan;
+    text-decoration: none;
+}
+
+.text_linked:hover {
+    color: rgb(0, 175, 175);
+}

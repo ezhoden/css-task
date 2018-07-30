@@ -1,0 +1,4 @@
+.profile__photo_bordered {
+    border: 4px white solid;
+    box-shadow: 0 0 5px grey;
+}

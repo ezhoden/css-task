@@ -1,0 +1,7 @@
+.message-author__time {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    opacity: 0.4;
+    flex-grow: 1;
+}

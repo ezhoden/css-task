@@ -1,0 +1,4 @@
+.photo-collection__photo_size_narrow {
+    height: 180px;
+    flex-grow: 1;
+}

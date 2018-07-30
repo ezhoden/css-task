@@ -1,0 +1,6 @@
+.profile {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    flex-grow: 1;
+}

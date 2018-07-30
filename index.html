@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>CSS task</title>
+</head>
+
+<body class="body">
+    <header class="header text">
+        <div class="header__logo">
+            <img class="header__logo_logo-size_small" src="assets/brand-white.png" alt="logo">
+        </div>
+
+        <div class="header__menu">
+            <div class="header__menu-item header__menu-item_active">Home</div>
+            <div class="header__menu-item">Profile</div>
+            <div class="header__menu-item">Messages</div>
+            <div class="header__menu-item">Docs</div>
+        </div>
+
+        <div class="header__search">
+            <input class="input input_rounded" placeholder="Search">
+        </div>
+        <div class="header__notification">
+            <img class="header__notification_notification-icon-size_small" src="https://www.materialui.co/materialIcons/social/notifications_white_192x192.png" alt="notification logo">
+        </div>
+        <div class="profile header__profile">
+            <img class="profile__photo profile__photo_rounded profile__photo_size_s" src="http://webmaster.web-soluces.net/avatar/FaceCo-Homme.png"
+                alt="avatar">
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <div class="side-panel">
+
+            <aside class="card card_inner-padding card_profile-bg card_centered-content">
+                <img class="profile__photo profile__photo_rounded profile__photo_size_l 
+                        profile__photo_rounded profile__photo_bordered" src="http://webmaster.web-soluces.net/avatar/FaceCo-Homme.png"
+                    alt="user photo">
+                <div class="text text_weight_bold text_divided-by-free-space_mid">Dave Gamache</div>
+                <div class="profile__status text text_weight_regular text_position_center">
+                    Some very interesting status for this test template
+                </div>
+                <div class="social">
+                    <div class="people">
+                        <div class="text text_weight_regular people__group">Friends</div>
+                        <div class="text text_weight_bold people__count">12M</div>
+                    </div>
+                    <div class="people">
+                        <div class="text text_weight_regular people__group">Enemies</div>
+                        <div class="text text_weight_bold people__count">1</div>
+                    </div>
+                </div>
+            </aside>
+
+            <aside class="card card_inner-padding">
+                <div class="caption">
+                    <label class="text text_weight_bold text_position_left">About</label>
+                    &middot;
+                    <a href="#" class="text text_weight_regular text_position_left text_size_small text_linked">Edit</a>
+                </div>
+
+                <div class="user-info">
+                    <img class="user-info__icon" alt="git icon" src="https://camo.githubusercontent.com/7710b43d0476b6f6d4b4b2865e35c108f69991f3/68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67">
+                    <div class="user-info__text text text_weight_regular">
+                        Worked at
+                        <a href="#" class="text_linked">GutHub</a>
+                    </div>
+                </div>
+                <div class="user-info">
+                    <img class="user-info__icon" alt="git icon" src="https://image.flaticon.com/icons/svg/23/23665.svg">
+                    <div class="user-info__text text text_weight_regular">
+                        Lived at
+                        <a href="#" class="text_linked">GutHub</a>
+                    </div>
+                </div>
+                <div class="user-info">
+                    <img class="user-info__icon" alt="git icon" src="https://image.flaticon.com/icons/svg/64/64113.svg">
+                    <div class="user-info__text text text_weight_regular">
+                        From
+                        <a href="#" class="text_linked">GutHub</a>
+                    </div>
+                </div>
+            </aside>
+
+            <aside class="card card_inner-padding">
+                <div class="caption">
+                    <label class="text text_weight_bold text_position_left">Photos</label>
+                    &middot;
+                    <a href="#" class="text text_weight_regular text_position_left text_size_small text_linked">Edit</a>
+                </div>
+                <div class="photo-collection">
+                    <img class="photo-collection__photo photo-collection__photo_size_small" src="assets/instagram_5.jpg" alt="photo">
+                    <img class="photo-collection__photo photo-collection__photo_size_small" src="assets/instagram_6.jpg" alt="photo">
+                    <img class="photo-collection__photo photo-collection__photo_size_small" src="assets/instagram_7.jpg" alt="photo">
+                    <img class="photo-collection__photo photo-collection__photo_size_small" src="assets/instagram_8.jpg" alt="photo">
+                    <img class="photo-collection__photo photo-collection__photo_size_small" src="assets/instagram_9.jpg" alt="photo">
+                    <img class="photo-collection__photo photo-collection__photo_size_small" src="assets/instagram_10.jpg" alt="photo">
+                </div>
+            </aside>
+
+        </div>
+
+        <main class="content card">
+
+            <div class="new-message">
+                <input class="text input input_rounded text__input_message" placeholder="Message">
+                <button class="card__button card__button_message text text_weight_regular">
+                    <img class="user-info__icon" alt="icon" src="https://www.shareicon.net/download/2015/08/23/89385_camera.ico">
+                </button>
+            </div>
+
+            <article class="message">
+                <img class="profile__photo_rounded profile__photo_size_m" src="http://webmaster.web-soluces.net/avatar/FaceCo-Homme.png">
+                <div class="message-content">
+                    <div class="message-author">
+                        <div class="message-author__name text text_weight_bold">
+                            <div>Dave Gamache</div>
+                        </div>
+                        <div class="message-author__time text text_size_small">
+                            <div>25 min</div>
+                        </div>
+                    </div>
+                    <div class="message__text text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis magna molestie, efficitur nunc id, ultricies mi. In sodales
+                        iaculis enim nec congue. Sed vel nisi vel nulla venenatis convallis. Quisque eu sem sem. Aliquam
+                        non lacus scelerisque, accumsan tortor vel, accumsan quam. In posuere vitae velit at pretium. Nunc
+                        a mi nibh. Donec varius massa vitae porttitor faucibus. Aliquam non nisi in magna condimentum facilisis
+                        sed sit amet ex. Ut varius sodales vestibulum. Fusce lacinia vitae elit id vulputate. Fusce eu tincidunt
+                        eros, non volutpat tortor.
+                    </div>
+                    <div class="photo-collection photo-collection">
+                        <img class="photo-collection__photo photo-collection__photo photo-collection__photo_size_wide" src="assets/instagram_2.jpg" alt="photo">
+                        <img class="photo-collection__photo photo-collection__photo photo-collection__photo_size_narrow" src="assets/instagram_6.jpg" alt="photo">
+                        <img class="photo-collection__photo photo-collection__photo photo-collection__photo_size_narrow" src="assets/instagram_8.jpg" alt="photo">
+                        <img class="photo-collection__photo photo-collection__photo photo-collection__photo_size_wide" src="assets/instagram_10.jpg" alt="photo">
+                    </div>
+                    <div class="comment-section">
+                        <div class="comment">
+                            <img class="profile__photo profile__photo_rounded profile__photo_size_s" src="http://webmaster.web-soluces.net/avatar/FaceCo-Homme.png"
+                                alt="avatar">
+                            <div class="text comment__text">
+                                <span class="text_weight_bold">I'm Gamache:</span> Sed ut aliquam odio. Phasellus blandit euismod mattis.
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <img class="profile__photo profile__photo_rounded profile__photo_size_s" src="http://webmaster.web-soluces.net/avatar/FaceCo-Homme.png"
+                                alt="avatar">
+                            <div class="text comment__text">
+                                <span class="text_weight_bold">Not Dave:</span> Suspendisse sit amet justo lacinia, varius lorem et, vulputate nulla. Suspendisse
+                                malesuada urna dui, sed ornare mi viverra eu. Phasellus lacinia laoreet mollis. Fusce tincidunt
+                                tempus metus at ullamcorper. Quisque nisl velit, condimentum ut ipsum a, suscipit faucibus
+                                neque. Sed ut leo urna. Nullam ut dui vel libero egestas accumsan. Sed imperdiet risus libero,
+                                ut egestas lorem vehicula sit amet. Donec sed facilisis eros, non dapibus quam.
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <img class="profile__photo profile__photo_rounded profile__photo_size_s" src="http://webmaster.web-soluces.net/avatar/FaceCo-Homme.png"
+                                alt="avatar">
+                            <div class="text comment__text">
+                                <span class="text_weight_bold">I'm Dave:</span> Donec et convallis nunc.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="message">
+                <img class="profile__photo_rounded profile__photo_size_m" src="http://webmaster.web-soluces.net/avatar/FaceCo-Homme.png">
+                <div class="message-content">
+                    <div class="message-author">
+                        <div class="message-author__name text text_weight_bold">
+                            <div>Dave Gamache</div>
+                        </div>
+                        <div class="message-author__time text text_size_small">
+                            <div>45 min</div>
+                        </div>
+                    </div>
+                    <div class="message__text text">
+                        Nunc ultrices magna ex. Cras ac lacus ante. Nullam vitae tempor nisi, sit amet posuere leo. Donec sed ligula vulputate, placerat
+                        odio eu, efficitur eros. Nulla blandit tortor orci, et dictum turpis imperdiet non. Sed id commodo
+                        diam, ac vehicula mi. Nunc congue pretium lacus quis interdum. Quisque euismod mattis venenatis.
+                    </div>
+                    <div class="photo-collection">
+                        <img class="photo-collection__photo photo-collection__photo_size_big" src="assets/instagram_2.jpg" alt="photo">
+                    </div>
+                    <div class="comments">
+                        <div class="comment">
+                            <img class="profile__photo profile__photo_rounded profile__photo_size_s" src="http://webmaster.web-soluces.net/avatar/FaceCo-Homme.png"
+                                alt="avatar">
+                            <div class="text comment__text">
+                                <span class="text_weight_bold">Not Dave:</span> Donec tempus ligula non ultrices faucibus. Donec vitae justo ut orci consequat pellentesque. Pellentesque non mauris lacus. Sed vel venenatis orci. Vivamus interdum diam non scelerisque vehicula. Duis diam odio, scelerisque vel nisi at, mollis porta lectus. Curabitur viverra, velit ut semper placerat, orci dui fermentum neque, malesuada efficitur sapien risus feugiat quam. Nam auctor, eros sit amet convallis tempor, lacus lacus dignissim nisi, nec iaculis ante sapien sed felis. Aenean blandit felis non dolor pharetra, eu gravida lacus egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="message">
+                <img class="profile__photo_rounded profile__photo_size_m" src="http://webmaster.web-soluces.net/avatar/FaceCo-Homme.png">
+                <div class="message-content">
+                    <div class="message-author">
+                        <div class="message-author__name text text_weight_bold">
+                            <div>Dave Gamache</div>
+                        </div>
+                        <div class="message-author__time text text_size_small">
+                            <div>54 min</div>
+                        </div>
+                    </div>
+                    <div class="message__text text">
+                        In non libero viverra odio ultricies bibendum. Fusce orci mi, fermentum ac euismod a, tincidunt id eros. Etiam eu odio vel
+                        neque porttitor commodo. In sapien ante, porta sed eros id, porta tempor massa. Aenean metus mauris,
+                        accumsan ac nisl ac, efficitur placerat magna. Sed ut aliquam odio. Phasellus blandit euismod mattis.
+                    </div>
+                </div>
+            </article>
+
+        </main>
+
+        <div class="side-panel">
+
+            <aside class="card card_inner-padding">
+                <div class="caption">
+                    <div class="text text_weight_bold text_position_left">Sponsored</div>
+                </div>
+                <div class="photo-collection">
+                    <img class="photo-collection__photo photo-collection__photo_size_big" src="assets/instagram_2.jpg" alt="photo">
+                </div>
+                <div class="sponsored-description">
+                    <div class="text text_weight_bold">It mightbe time to visit Iceland.</div>
+                    <div class="text text_weight_regular">
+                        Iceland blah blah blah. Very interesting blah blah blah blah blah blah. Blah blah blah blah blah blah.
+                    </div>
+                </div>
+                <button class="card__button text text_weight_regular">Buy a ticket</button>
+            </aside>
+
+            <aside class="card card_inner-padding">
+                <div class="links">
+                    <a href="#" class="text text_weight_regular text_linked links__link">About</a>
+                    <a href="#" class="text text_weight_regular text_linked links__link">Help</a>
+                    <a href="#" class="text text_weight_regular text_linked links__link">Terms</a>
+                    <a href="#" class="text text_weight_regular text_linked links__link">Privacy</a>
+                    <a href="#" class="text text_weight_regular text_linked links__link">Cookies</a>
+                    <a href="#" class="text text_weight_regular text_linked links__link">Ads</a>
+                    <a href="#" class="text text_weight_regular text_linked links__link">Info</a>
+                    <a href="#" class="text text_weight_regular text_linked links__link">Brand</a>
+                    <a href="#" class="text text_weight_regular text_linked links__link">Blog</a>
+                    <a href="#" class="text text_weight_regular text_linked links__link">Status</a>
+                    <a href="#" class="text text_weight_regular text_linked links__link">Apps</a>
+                    <a href="#" class="text text_weight_regular text_linked links__link">Jobs</a>
+                    <a href="#" class="text text_weight_regular text_linked links__link">Advertise</a>
+                </div>
+            </aside>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

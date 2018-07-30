@@ -1,0 +1,11 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px lightgray solid;
+    border-radius: 4px;
+}
+
+.card:not(:last-child) {
+    margin-bottom: 20px;
+}

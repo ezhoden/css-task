@@ -1,0 +1,7 @@
+.header__menu {
+    color: lightgray;
+    display: flex;
+    height: fit-content;
+    padding-left: 30px;
+    flex-grow: 5;
+}

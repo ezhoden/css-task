@@ -1,0 +1,5 @@
+.message-author__name {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 1;
+}

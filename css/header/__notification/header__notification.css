@@ -1,0 +1,6 @@
+.header__notification {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    height: fit-content;
+}
