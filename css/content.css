@@ -9,10 +9,10 @@
 @import 'message-author/__time/message-author__time.css';
 @import 'message-content/message-content.css';
 @import 'message/__text/message__text.css';
-@import 'comments/comments.css';
-@import 'comments/comment/comment.css';
-@import 'comments/comment/__text/comment__text.css';
-@import 'multiple-photos/multiple-photos.css';
-@import 'multiple-photos/__photo/multiple-photos__photo.css';
-@import 'multiple-photos/_size/multiple-photos__photo_size_wide.css';
-@import 'multiple-photos/_size/multiple-photos__photo_size_narrow.css';
+@import 'comment-section/comment-section.css';
+@import 'comment-section/comment/comment.css';
+@import 'comment-section/comment/__text/comment__text.css';
+@import 'photo-collection/photo-collection.css';
+@import 'photo-collection/__photo/photo-collection__photo.css';
+@import 'photo-collection/_size/photo-collection__photo_size_wide.css';
+@import 'photo-collection/_size/photo-collection__photo_size_narrow.css';

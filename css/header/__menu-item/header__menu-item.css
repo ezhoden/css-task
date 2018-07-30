@@ -1,0 +1,7 @@
+.header__menu-item {
+    padding: 8px;
+}
+
+.header__menu-item:hover {
+    color: white;
+}

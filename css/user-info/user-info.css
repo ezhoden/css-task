@@ -2,6 +2,6 @@
     display: flex;
 }
 
-.user-info + .user-info {
-    padding-top: 8px;
+.user-info:not(:last-child) {
+    padding-bottom: 8px;
 }

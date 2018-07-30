@@ -11,24 +11,24 @@
 
 <body class="body">
     <header class="header text">
-        <div class="logo">
-            <img class="logo__image" src="assets/brand-white.png" alt="logo">
+        <div class="header__logo">
+            <img class="header__logo_logo-size_small" src="assets/brand-white.png" alt="logo">
         </div>
 
-        <div class="menu">
-            <div class="menu__item menu__item_active">Home</div>
-            <div class="menu__item">Profile</div>
-            <div class="menu__item">Messages</div>
-            <div class="menu__item">Docs</div>
+        <div class="header__menu">
+            <div class="header__menu-item header__menu-item_active">Home</div>
+            <div class="header__menu-item">Profile</div>
+            <div class="header__menu-item">Messages</div>
+            <div class="header__menu-item">Docs</div>
         </div>
 
-        <div class="search">
-            <input class="text__input text__input_rounded" placeholder="Search">
+        <div class="header__search">
+            <input class="input input_rounded" placeholder="Search">
         </div>
-        <div class="notification">
-            <img class="notification__icon" src="https://www.materialui.co/materialIcons/social/notifications_white_192x192.png" alt="notification logo">
+        <div class="header__notification">
+            <img class="header__notification_notification-icon-size_small" src="https://www.materialui.co/materialIcons/social/notifications_white_192x192.png" alt="notification logo">
         </div>
-        <div class="profile">
+        <div class="profile header__profile">
             <img class="profile__photo profile__photo_rounded profile__photo_size_s" src="http://webmaster.web-soluces.net/avatar/FaceCo-Homme.png"
                 alt="avatar">
         </div>
@@ -39,11 +39,11 @@
 
         <div class="side-panel">
 
-            <aside class="card card_menu card_profile-bg card_centered-content">
+            <aside class="card card_inner-padding card_profile-bg card_centered-content">
                 <img class="profile__photo profile__photo_rounded profile__photo_size_l 
                         profile__photo_rounded profile__photo_bordered" src="http://webmaster.web-soluces.net/avatar/FaceCo-Homme.png"
                     alt="user photo">
-                <div class="profile__username text text_weight_bold">Dave Gamache</div>
+                <div class="text text_weight_bold text_divided-by-free-space_mid">Dave Gamache</div>
                 <div class="profile__status text text_weight_regular text_position_center">
                     Some very interesting status for this test template
                 </div>
@@ -59,7 +59,7 @@
                 </div>
             </aside>
 
-            <aside class="card card_menu">
+            <aside class="card card_inner-padding">
                 <div class="caption">
                     <label class="text text_weight_bold text_position_left">About</label>
                     &middot;
@@ -89,28 +89,28 @@
                 </div>
             </aside>
 
-            <aside class="card card_menu">
+            <aside class="card card_inner-padding">
                 <div class="caption">
                     <label class="text text_weight_bold text_position_left">Photos</label>
                     &middot;
                     <a href="#" class="text text_weight_regular text_position_left text_size_small text_linked">Edit</a>
                 </div>
-                <div class="photos">
-                    <img class="photos__photo photos__photo_size_small" src="assets/instagram_5.jpg" alt="photo">
-                    <img class="photos__photo photos__photo_size_small" src="assets/instagram_6.jpg" alt="photo">
-                    <img class="photos__photo photos__photo_size_small" src="assets/instagram_7.jpg" alt="photo">
-                    <img class="photos__photo photos__photo_size_small" src="assets/instagram_8.jpg" alt="photo">
-                    <img class="photos__photo photos__photo_size_small" src="assets/instagram_9.jpg" alt="photo">
-                    <img class="photos__photo photos__photo_size_small" src="assets/instagram_10.jpg" alt="photo">
+                <div class="photo-collection">
+                    <img class="photo-collection__photo photo-collection__photo_size_small" src="assets/instagram_5.jpg" alt="photo">
+                    <img class="photo-collection__photo photo-collection__photo_size_small" src="assets/instagram_6.jpg" alt="photo">
+                    <img class="photo-collection__photo photo-collection__photo_size_small" src="assets/instagram_7.jpg" alt="photo">
+                    <img class="photo-collection__photo photo-collection__photo_size_small" src="assets/instagram_8.jpg" alt="photo">
+                    <img class="photo-collection__photo photo-collection__photo_size_small" src="assets/instagram_9.jpg" alt="photo">
+                    <img class="photo-collection__photo photo-collection__photo_size_small" src="assets/instagram_10.jpg" alt="photo">
                 </div>
             </aside>
 
         </div>
 
-        <main class="content card card_main">
+        <main class="content card">
 
             <div class="new-message">
-                <input class="text text__input text__input_rounded text__input_message" placeholder="Message">
+                <input class="text input input_rounded text__input_message" placeholder="Message">
                 <button class="card__button card__button_message text text_weight_regular">
                     <img class="user-info__icon" alt="icon" src="https://www.shareicon.net/download/2015/08/23/89385_camera.ico">
                 </button>
@@ -135,13 +135,13 @@
                         sed sit amet ex. Ut varius sodales vestibulum. Fusce lacinia vitae elit id vulputate. Fusce eu tincidunt
                         eros, non volutpat tortor.
                     </div>
-                    <div class="photos multiple-photos">
-                        <img class="photos__photo multiple-photos__photo multiple-photos__photo_size_wide" src="assets/instagram_2.jpg" alt="photo">
-                        <img class="photos__photo multiple-photos__photo multiple-photos__photo_size_narrow" src="assets/instagram_6.jpg" alt="photo">
-                        <img class="photos__photo multiple-photos__photo multiple-photos__photo_size_narrow" src="assets/instagram_8.jpg" alt="photo">
-                        <img class="photos__photo multiple-photos__photo multiple-photos__photo_size_wide" src="assets/instagram_10.jpg" alt="photo">
+                    <div class="photo-collection photo-collection">
+                        <img class="photo-collection__photo photo-collection__photo photo-collection__photo_size_wide" src="assets/instagram_2.jpg" alt="photo">
+                        <img class="photo-collection__photo photo-collection__photo photo-collection__photo_size_narrow" src="assets/instagram_6.jpg" alt="photo">
+                        <img class="photo-collection__photo photo-collection__photo photo-collection__photo_size_narrow" src="assets/instagram_8.jpg" alt="photo">
+                        <img class="photo-collection__photo photo-collection__photo photo-collection__photo_size_wide" src="assets/instagram_10.jpg" alt="photo">
                     </div>
-                    <div class="comments">
+                    <div class="comment-section">
                         <div class="comment">
                             <img class="profile__photo profile__photo_rounded profile__photo_size_s" src="http://webmaster.web-soluces.net/avatar/FaceCo-Homme.png"
                                 alt="avatar">
@@ -187,8 +187,8 @@
                         odio eu, efficitur eros. Nulla blandit tortor orci, et dictum turpis imperdiet non. Sed id commodo
                         diam, ac vehicula mi. Nunc congue pretium lacus quis interdum. Quisque euismod mattis venenatis.
                     </div>
-                    <div class="photos">
-                        <img class="photos__photo photos__photo_size_big" src="assets/instagram_2.jpg" alt="photo">
+                    <div class="photo-collection">
+                        <img class="photo-collection__photo photo-collection__photo_size_big" src="assets/instagram_2.jpg" alt="photo">
                     </div>
                     <div class="comments">
                         <div class="comment">
@@ -225,12 +225,12 @@
 
         <div class="side-panel">
 
-            <aside class="card card_menu">
+            <aside class="card card_inner-padding">
                 <div class="caption">
                     <div class="text text_weight_bold text_position_left">Sponsored</div>
                 </div>
-                <div class="photos">
-                    <img class="photos__photo photos__photo_size_big" src="assets/instagram_2.jpg" alt="photo">
+                <div class="photo-collection">
+                    <img class="photo-collection__photo photo-collection__photo_size_big" src="assets/instagram_2.jpg" alt="photo">
                 </div>
                 <div class="sponsored-description">
                     <div class="text text_weight_bold">It mightbe time to visit Iceland.</div>
@@ -241,7 +241,7 @@
                 <button class="card__button text text_weight_regular">Buy a ticket</button>
             </aside>
 
-            <aside class="card card_menu">
+            <aside class="card card_inner-padding">
                 <div class="links">
                     <a href="#" class="text text_weight_regular text_linked links__link">About</a>
                     <a href="#" class="text text_weight_regular text_linked links__link">Help</a>

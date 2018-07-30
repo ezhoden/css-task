@@ -1,9 +1,0 @@
-.text__input {
-    padding: 8px;
-    border: 1px gray solid;
-}
-
-.text__input:focus {
-    outline: none;
-    border-color: darkcyan;
-}

@@ -1,10 +1,9 @@
 @import 'card/card.css';
-@import 'card/_main/card_main.css';
-@import 'card/_menu/card_menu.css';
+@import 'card/_inner-padding/card_inner-padding.css';
 @import 'card/_profile-bg/card_profile-bg.css';
 @import 'card/_centered-content/card_centered-content.css';
 @import 'card/_clickable-text/card_clickable-text.css';
-@import 'profile/__username/profile__username.css';
+@import 'text/_divided-by-free-space/text_divided-by-free-space_mid.css';
 @import 'social/social.css';
 @import 'social/people/people.css';
 @import 'social/people/__count/people__count.css';
@@ -24,7 +23,6 @@
 @import 'user-info/user-info.css';
 @import 'user-info/__icon/user-info__icon.css';
 @import 'user-info/__text/user-info__text.css';
-@import 'photos/photos.css';
-@import 'photos/__photo/photos__photo.css';
-@import 'photos/_size/photos__photo_size_small.css';
-@import 'photos/_size/photos__photo_size_big.css';
+@import 'photo-collection/__photo/photo-collection__photo.css';
+@import 'photo-collection/_size/photo-collection__photo_size_small.css';
+@import 'photo-collection/_size/photo-collection__photo_size_big.css';

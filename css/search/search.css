@@ -1,7 +1,0 @@
-.search {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 16px;
-    height: fit-content;
-    flex-grow: 5;
-}

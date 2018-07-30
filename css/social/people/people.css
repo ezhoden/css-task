@@ -5,6 +5,6 @@
     padding: 8px;
 }
 
-.people + .people {
-    border-left: 1px solid lightgray;
+.people:not(:last-child) {
+    border-right: 1px solid lightgray;
 }
